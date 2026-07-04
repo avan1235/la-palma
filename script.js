@@ -7,7 +7,9 @@ const stops = [
     visitTime: "start wycieczki",
     highlight: "Resort położony na klifie nad Atlantykiem, blisko południowych krajobrazów wulkanicznych.",
     description:
-      "Dobry punkt startowy na objazd wyspy: szybki wyjazd na południe i zachód, widoki na ocean oraz łatwy dostęp do tras samochodowych.",
+      "Hotel jest świetną bazą logistyczną dla całej wyspy: szybko wyjedziesz stąd zarówno w stronę zachodnich miradorów, jak i zielonej północy.",
+    details:
+      "Okolica Fuencaliente oferuje kameralny klimat, widoki na ocean i łatwy dostęp do słynnych terenów lawowych przy wulkanie Teneguía. To dobre miejsce, by rozpocząć dzień od śniadania z widokiem i wrócić tu wieczorem na relaks po trasie.",
     tip: "Warto ruszyć wcześnie rano — pierwsze miradory odwiedzisz jeszcze przed największym ruchem.",
     image:
       "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Palma%20-%20Volcan%20de%20Teneguia%20-%204.jpg",
@@ -22,7 +24,9 @@ const stops = [
     visitTime: "35–45 min",
     highlight: "Jeden z najszerszych widoków na Dolinę Aridane i plantacje bananowców.",
     description:
-      "Po erupcji z 2021 r. mirador stał się jednym z najlepszych miejsc do zrozumienia skali zmian w krajobrazie zachodniej części wyspy.",
+      "To jeden z najważniejszych punktów orientacyjnych zachodniej La Palmy, z którego łatwo zrozumieć geografię wyspy i skalę doliny rozciągającej się aż po linię oceanu.",
+    details:
+      "Po erupcji z 2021 roku to miejsce zyskało dodatkowy wymiar poznawczy — przy dobrej widoczności można śledzić, jak nowy krajobraz lawowy wpłynął na układ miejscowości i upraw. Przy miradorze działa też punkt gastronomiczny, więc to wygodny przystanek na kawę.",
     tip: "Najpiękniej bywa tu późnym popołudniem, gdy światło miękko przechodzi przez dolinę.",
     image:
       "https://commons.wikimedia.org/wiki/Special:FilePath/Mirador%20del%20time%20la%20Palma.jpg",
@@ -37,7 +41,9 @@ const stops = [
     visitTime: "45–60 min",
     highlight: "Widok na unikalny osiedlowy zakątek ukryty pod ogromnym klifem i skalnym nawisem.",
     description:
-      "To jedno z najbardziej charakterystycznych miejsc La Palmy — mała osada rybacka wygląda jak wciśnięta między ocean a pionową ścianę skał.",
+      "Porís de Candelaria wygląda jak scenografia filmowa: niewielkie białe domy są schowane pod potężnym skalnym półkolistym nawisem nad oceanem.",
+    details:
+      "To jedno z najbardziej rozpoznawalnych miejsc La Palmy, często fotografowane z góry i z poziomu osady. Dojazd prowadzi stromą drogą, dlatego warto podjechać spokojnie i zarezerwować czas na bezpieczny powrót.",
     tip: "Dojazd i zejście bywają wymagające; zachowaj ostrożność na stromych odcinkach.",
     image:
       "https://commons.wikimedia.org/wiki/Special:FilePath/Por%C3%ADs%20de%20Candelaria%2C%20La%20Palma.jpg",
@@ -52,7 +58,9 @@ const stops = [
     visitTime: "25–35 min",
     highlight: "Naturalna scena z charakterystycznymi smoczymi drzewami (dracaena drago).",
     description:
-      "Smocze drzewa są ikoną Wysp Kanaryjskich, a tutejszy punkt to świetne miejsce na krótką przerwę i zdjęcia północno-zachodniego wybrzeża.",
+      "Mirador łączy szeroki widok na północno-zachodnie wybrzeże z botanicznym symbolem Wysp Kanaryjskich — wiekowymi smoczymi drzewami.",
+    details:
+      "To bardzo dobry punkt na krótki postój fotograficzny i złapanie oddechu przed dalszym odcinkiem przez górskie drogi. W pogodny dzień zobaczysz stąd kontrast między zielonym interiorom a surowymi klifami schodzącymi do oceanu.",
     tip: "Przy gorszej pogodzie wiatr bywa silny — dobrze mieć lekką kurtkę.",
     image:
       "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Palma%20-%20Puntagorda%20-%20El%20Roque%20-%20LP-1%20-%20Mirador%20de%20los%20Dragos%20-%20Dracaena%20drago%2007%20ies.jpg",
@@ -68,7 +76,9 @@ const stops = [
     visitTime: "60–90 min",
     highlight: "Niewielki port i naturalne kąpieliska wśród lawowych skał.",
     description:
-      "Miejsce słynie ze stromego zejścia i klimatu małej przystani; to dobry punkt na spokojny odpoczynek w trakcie intensywnej trasy.",
+      "Puerto de Puntagorda to spokojna przystań z autentycznym klimatem rybackiej części wyspy, idealna na wolniejszy fragment dnia.",
+    details:
+      "Do portu prowadzi długi ciąg schodów, a po drodze rozciągają się atrakcyjne punkty widokowe na lawowe półki i ocean. Na dole można odpocząć przy kąpieliskach i poczuć bardziej lokalną, mniej turystyczną stronę La Palmy.",
     tip: "Jeśli planujesz zejście i powrót po schodach, zostaw więcej czasu i zabierz wodę.",
     image:
       "https://commons.wikimedia.org/wiki/Special:FilePath/Descent%20to%20the%20harbour%20of%20Puerto%20de%20Puntagorda%2C%20La%20Palma%2C%20Canary%20Islands%2C%202015%20-%20panoramio.jpg",
@@ -84,7 +94,9 @@ const stops = [
     visitTime: "25–35 min",
     highlight: "Surowe klify północnej La Palmy i rozległe panoramy oceaniczne.",
     description:
-      "Mirador ulokowany w dzikiej części wyspy, gdzie krajobraz jest mniej zurbanizowany i pokazuje najbardziej naturalną stronę La Palmy.",
+      "To punkt dla osób, które chcą zobaczyć najbardziej dzikie oblicze wyspy — z dramatyczną rzeźbą terenu i niemal nieprzerwanym horyzontem Atlantyku.",
+    details:
+      "Okolice Garafíi są słabiej zurbanizowane, dzięki czemu łatwo poczuć tu prawdziwą skalę naturalnych krajobrazów La Palmy. Postój przy miradorze dobrze komponuje się z dalszą trasą przez północ, gdzie drogi są wolniejsze, ale widoki wyjątkowo spektakularne.",
     tip: "Na tej części trasy warto tankować wcześniej — infrastruktura jest rzadsza niż na południu.",
     image:
       "https://commons.wikimedia.org/wiki/Special:FilePath/El%20Tablado%2C%20La%20Palma%2C%20looking%20upthe%20barranco.jpg",
@@ -100,7 +112,9 @@ const stops = [
     visitTime: "20–30 min",
     highlight: "Krótki postój z szeroką perspektywą na zieloną, północno-wschodnią część wyspy.",
     description:
-      "Punkt często pojawia się na trasach objazdowych dzięki łatwemu dojazdowi i dobremu miejscu na zdjęcia bez długiego trekkingu.",
+      "Mirador de La Tosca to świetny punkt przejściowy pomiędzy zachodnią i północną częścią objazdu, gdzie krajobraz staje się wyraźnie bardziej wilgotny i zielony.",
+    details:
+      "Dzięki łatwemu dojazdowi można tu szybko zatrzymać się na zdjęcia bez długiego podejścia. Przy dobrej pogodzie mirador pokazuje mozaikę tarasów uprawnych, rozproszonych zabudowań i stromych zboczy schodzących ku oceanowi.",
     tip: "To świetny przystanek techniczny przed dalszym odcinkiem do La Fajany i Los Tilos.",
     image: "https://assets.la-palma.travel/uploads/2015/03/barlovento-la-palma-la-tosca-668x332.jpg",
     creditAuthor: "La Palma Travel",
@@ -114,7 +128,9 @@ const stops = [
     visitTime: "45–75 min",
     highlight: "Naturalne baseny oceaniczne osłonięte od fali i świetne na odpoczynek.",
     description:
-      "La Fajana to jedno z najpopularniejszych miejsc kąpielowych na północy wyspy — idealne na przerwę między punktami widokowymi.",
+      "La Fajana to jeden z najbardziej lubianych punktów relaksu na północy wyspy — z infrastrukturą kąpielową wkomponowaną w naturalne lawowe skały.",
+    details:
+      "Kompleks basenów ma różne głębokości i wygodne tarasy, dzięki czemu sprawdza się zarówno na krótki postój, jak i dłuższą przerwę. Przy mocniejszym morzu warto obserwować zachowanie fal i respektować oznaczenia bezpieczeństwa przy wejściach do wody.",
     tip: "Przed wejściem do wody sprawdź aktualny stan morza i oznaczenia bezpieczeństwa.",
     image:
       "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Palma%20-%20La%20Fajana%20-%2002.jpg",
@@ -129,7 +145,9 @@ const stops = [
     visitTime: "60–100 min",
     highlight: "Krótki, efektowny trekking do wodospadu w laurylowym lesie biosfery.",
     description:
-      "Los Tilos to jeden z najcenniejszych przyrodniczo obszarów La Palmy. Trasa do wodospadu prowadzi przez zielony, wilgotny i bardzo fotogeniczny teren.",
+      "Los Tilos to rezerwat biosfery UNESCO i jedno z najcenniejszych przyrodniczo miejsc na wyspie, słynące z wilgotnego mikroklimatu i bujnej roślinności.",
+    details:
+      "Podejście do wodospadu prowadzi przez tunele i zielone ścieżki otoczone lasem wawrzynowym, co daje zupełnie inne doświadczenie niż suche południe La Palmy. To przystanek szczególnie ceniony przez osoby lubiące spokojny trekking i fotografię przyrodniczą.",
     tip: "Nawierzchnia bywa śliska; przydadzą się buty z dobrą przyczepnością.",
     image:
       "https://commons.wikimedia.org/wiki/Special:FilePath/Barranco%20del%20Agua%20%E2%80%93%20Cascada%20de%20Los%20Tilos.jpg",
@@ -145,7 +163,9 @@ const stops = [
     visitTime: "45–70 min",
     highlight: "Szeroka plaża z ciemnym piaskiem i widowiskowymi klifami.",
     description:
-      "Jedno z najbardziej fotogenicznych wybrzeży na wyspie. Miejsce doceniane za surowy krajobraz, ale wymagające ostrożności przy wodzie.",
+      "Playa de Nogales uchodzi za jedną z najpiękniejszych plaż całego archipelagu dzięki czarnemu piaskowi, wysokim klifom i surowemu, filmowemu krajobrazowi.",
+    details:
+      "Dojście na plażę prowadzi wygodną ścieżką z punktami widokowymi, które same w sobie są atrakcją fotograficzną. Ze względu na częste prądy i silny przybój miejsce najlepiej traktować jako punkt spacerowy i widokowy, a kąpiel planować tylko przy bardzo dobrych warunkach.",
     tip: "Silne prądy to norma — traktuj kąpiel jako opcję tylko przy bardzo dobrych warunkach.",
     image:
       "https://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20Nogales%2C%20La%20Palma%2C%20overview.jpg",
@@ -160,7 +180,9 @@ const stops = [
     visitTime: "35–50 min",
     highlight: "Historyczne sanktuarium patronki wyspy z bogatym dziedzictwem religijnym.",
     description:
-      "Świątynia to ważny punkt kultu i tradycji La Palmy. Stanowi ciekawy kontrast wobec naturalnych atrakcji na trasie.",
+      "To jedno z najważniejszych miejsc kultu na La Palmie, związane z wielowiekową tradycją i lokalną tożsamością mieszkańców wyspy.",
+    details:
+      "Wnętrze świątyni wyróżnia się cennymi elementami sztuki sakralnej i spokojną atmosferą, która kontrastuje z dynamicznym charakterem objazdu. Jeśli termin podróży pokrywa się z lokalnymi uroczystościami, warto sprawdzić kalendarz wydarzeń religijnych w Santa Cruz.",
     tip: "W środku zachowaj spokojny strój i tempo zwiedzania — to aktywne miejsce kultu.",
     image:
       "https://commons.wikimedia.org/wiki/Special:FilePath/Real%20Santuario%20Insular%20de%20Nuestra%20Se%C3%B1ora%20de%20las%20Nieves%20-%20La%20Palma.jpg",
@@ -176,7 +198,16 @@ const stops = [
     visitTime: "90–140 min",
     highlight: "Kolonialna zabudowa, nadmorska promenada i historyczne centrum.",
     description:
-      "Stolica wyspy świetnie zamyka intensywny dzień: można tu połączyć spacer po starówce z kolacją i widokiem na ocean.",
+      "Santa Cruz de la Palma to klimatyczna stolica o eleganckiej, kolonialnej architekturze, idealna na spacer, kolację i spokojne zakończenie dnia pełnego widoków.",
+    details:
+      "Miasto ma kompaktowe centrum, dlatego wiele najważniejszych miejsc zobaczysz pieszo w krótkim czasie. Połączenie zabytkowych uliczek, balkonów z drewna kanaryjskiego i bliskości oceanu tworzy tu wyjątkowy, bardziej miejski finał całej trasy.",
+    attractions: [
+      "Avenida Marítima i słynne drewniane balkony (Balcónes de la Avenida) — najbardziej charakterystyczny kadr miasta.",
+      "Calle Real (Calle O’Daly) — główny deptak z historyczną zabudową, sklepami i kawiarniami.",
+      "Plac Hiszpański (Plaza de España) z ratuszem i kościołem El Salvador — serce historycznego centrum.",
+      "Barco de la Virgen i Museo Naval — nietypowe muzeum morskie w replice statku.",
+      "Castillo de Santa Catalina — nadmorska forteca i świetny punkt na zdjęcia o zachodzie słońca.",
+    ],
     tip: "Warto zaplanować ten punkt na wieczór, gdy miasto jest przyjemnie oświetlone.",
     image:
       "https://commons.wikimedia.org/wiki/Special:FilePath/Santa%20Cruz%20de%20La%20Palma%202019-04.jpg",
@@ -191,7 +222,9 @@ const stops = [
     visitTime: "zakończenie dnia",
     highlight: "Powrót do bazy i podsumowanie objazdu wyspy.",
     description:
-      "Wieczorem możesz zaplanować spokojny relaks i przygotowanie planu na kolejny dzień — np. trekking lub obserwacje nocnego nieba.",
+      "Po całodniowej wyprawie powrót do hotelu daje komfortowe domknięcie trasy i czas na spokojne podsumowanie wszystkich odwiedzonych miejsc.",
+    details:
+      "Wieczór warto wykorzystać na kolację z widokiem na ocean, regenerację i przygotowanie planu kolejnego dnia — np. trekkingu, obserwacji gwiazd lub wizyty przy latarni w Fuencaliente. To naturalny finał intensywnego, ale bardzo różnorodnego programu.",
     tip: "Jeśli chcesz sfotografować nocne niebo, sprawdź zachmurzenie i fazę księżyca.",
     image:
       "https://commons.wikimedia.org/wiki/Special:FilePath/Lava%20-%20Volc%C3%A1n%20Tenegu%C3%ADa%20-%20La%20Palma%2002.jpg",
@@ -201,29 +234,9 @@ const stops = [
   },
 ];
 
-const defaultEmbed =
-  '<iframe style="border:none" src="https://mapy.com/s/lukobebusa" width="700" height="466" frameborder="0"></iframe>';
-const embedStorageKey = "la-palma-custom-map-embed";
-const allowedEmbedHosts = [
-  "mapy.com",
-  "www.mapy.com",
-  "google.com",
-  "www.google.com",
-  "maps.google.com",
-  "google.pl",
-  "maps.google.pl",
-  "google.es",
-  "maps.google.es",
-];
-
 const routeList = document.getElementById("route-list");
 const stopsGrid = document.getElementById("stops-grid");
 const filters = document.getElementById("filters");
-const mapFrame = document.getElementById("map-frame");
-const embedInput = document.getElementById("embed-input");
-const applyEmbedBtn = document.getElementById("apply-embed");
-const resetEmbedBtn = document.getElementById("reset-embed");
-const embedMessage = document.getElementById("embed-message");
 
 let activeCategory = "Wszystkie";
 
@@ -256,6 +269,17 @@ function createStopCard(stop, index) {
   article.className = "stop-card";
   article.id = stop.id;
   article.dataset.category = stop.category;
+  const attractionsMarkup = Array.isArray(stop.attractions)
+    ? `
+      <div class="stop-card__attractions">
+        <p class="stop-card__attractions-title">Atrakcje, które warto odwiedzić:</p>
+        <ul>
+          ${stop.attractions.map((attraction) => `<li>${attraction}</li>`).join("")}
+        </ul>
+      </div>
+    `
+    : "";
+
   article.innerHTML = `
     <figure class="stop-card__media">
       <img src="${stop.image}" alt="${stop.title}" loading="lazy" />
@@ -271,6 +295,8 @@ function createStopCard(stop, index) {
       </div>
       <p><strong>${stop.highlight}</strong></p>
       <p>${stop.description}</p>
+      <p>${stop.details}</p>
+      ${attractionsMarkup}
       <p class="stop-card__tip">Wskazówka: ${stop.tip}</p>
       <p class="credit">Zdjęcie: ${stop.creditAuthor} • <a href="${stop.creditUrl}" target="_blank" rel="noreferrer noopener">źródło</a></p>
     </div>
@@ -353,82 +379,6 @@ function attachScrollSpy() {
   cards.forEach((card) => observer.observe(card));
 }
 
-function sanitizeEmbed(rawEmbed) {
-  if (!rawEmbed || !rawEmbed.includes("<iframe")) {
-    return null;
-  }
-
-  const parser = new DOMParser();
-  const parsed = parser.parseFromString(rawEmbed, "text/html");
-  const iframe = parsed.querySelector("iframe");
-  if (!iframe) {
-    return null;
-  }
-
-  const src = iframe.getAttribute("src") || "";
-  if (!src.startsWith("https://")) {
-    return null;
-  }
-
-  let hostname;
-  try {
-    hostname = new URL(src).hostname;
-  } catch {
-    return null;
-  }
-
-  const isAllowedHost = allowedEmbedHosts.some(
-    (host) => hostname === host || hostname.endsWith(`.${host}`)
-  );
-  if (!isAllowedHost) {
-    return null;
-  }
-
-  iframe.setAttribute("style", "border:none");
-  iframe.setAttribute("width", "700");
-  iframe.setAttribute("height", "466");
-  iframe.setAttribute("frameborder", "0");
-
-  return iframe.outerHTML;
-}
-
-function loadEmbedFromStorage() {
-  const saved = localStorage.getItem(embedStorageKey);
-  const validated = sanitizeEmbed(saved || "") || defaultEmbed;
-  mapFrame.innerHTML = validated;
-  embedInput.value = validated;
-}
-
-function setEmbedMessage(text, isError = false) {
-  embedMessage.textContent = text;
-  embedMessage.style.color = isError ? "#b42318" : "#4d6484";
-}
-
-function attachMapEditor() {
-  applyEmbedBtn.addEventListener("click", () => {
-    const candidate = sanitizeEmbed(embedInput.value.trim());
-    if (!candidate) {
-      setEmbedMessage(
-        "Nie udało się zastosować embedu. Wklej poprawny kod iframe z bezpiecznym adresem (mapy.com lub Google Maps).",
-        true
-      );
-      return;
-    }
-
-    mapFrame.innerHTML = candidate;
-    embedInput.value = candidate;
-    localStorage.setItem(embedStorageKey, candidate);
-    setEmbedMessage("Embed zaktualizowany i zapisany lokalnie.");
-  });
-
-  resetEmbedBtn.addEventListener("click", () => {
-    mapFrame.innerHTML = defaultEmbed;
-    embedInput.value = defaultEmbed;
-    localStorage.removeItem(embedStorageKey);
-    setEmbedMessage("Przywrócono domyślną mapę trasy.");
-  });
-}
-
 function renderDate() {
   const today = document.getElementById("today");
   if (!today) {
@@ -445,6 +395,4 @@ renderRouteAndCards();
 renderFilters();
 applyFilter();
 attachScrollSpy();
-loadEmbedFromStorage();
-attachMapEditor();
 renderDate();

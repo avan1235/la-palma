@@ -177,6 +177,31 @@ h1 {
   max-width: 70ch;
 }
 
+.offer-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.offer-card {
+  background: var(--surface);
+  border: 1px solid #d9e6ff;
+  border-radius: var(--radius-m);
+  box-shadow: var(--shadow);
+  padding: 1rem;
+}
+
+.offer-card h3 {
+  margin: 0 0 0.45rem;
+  font-size: 1.03rem;
+}
+
+.offer-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
 .filters {
   margin: 1.25rem 0 1.6rem;
   display: flex;
@@ -353,6 +378,32 @@ h1 {
   font-weight: 500;
 }
 
+.stop-card__attractions {
+  background: #f7faff;
+  border: 1px solid #d8e5ff;
+  border-radius: 12px;
+  padding: 0.65rem 0.75rem;
+}
+
+.stop-card__attractions-title {
+  margin: 0 0 0.35rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #2e4f80;
+}
+
+.stop-card__attractions ul {
+  margin: 0;
+  padding-left: 1.05rem;
+  display: grid;
+  gap: 0.25rem;
+}
+
+.stop-card__attractions li {
+  color: #355a8d;
+  font-size: 0.88rem;
+}
+
 .credit {
   margin-top: 0.2rem;
   font-size: 0.76rem;
@@ -366,17 +417,18 @@ h1 {
 .map-grid {
   margin-top: 1rem;
   display: grid;
-  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr);
   gap: 1rem;
 }
 
-.map-preview,
-.map-editor {
+.map-preview {
   background: var(--surface);
   border-radius: var(--radius-l);
   box-shadow: var(--shadow);
   border: 1px solid #dee9ff;
   padding: 0.95rem;
+  max-width: 980px;
+  margin-inline: auto;
 }
 
 .map-frame {
@@ -393,50 +445,10 @@ h1 {
   display: block;
 }
 
-.map-caption,
-.map-help {
+.map-caption {
   margin: 0.65rem 0 0;
   color: #4d6484;
   font-size: 0.88rem;
-}
-
-.map-help {
-  min-height: 1.3em;
-}
-
-.map-editor label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: 700;
-}
-
-.map-editor textarea {
-  width: 100%;
-  border-radius: var(--radius-m);
-  border: 1px solid #bdd0f9;
-  background: #f9fbff;
-  padding: 0.72rem;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  resize: vertical;
-  min-height: 180px;
-}
-
-.map-editor textarea:focus {
-  outline: 3px solid var(--ring);
-  border-color: var(--primary);
-}
-
-.map-editor__actions {
-  margin-top: 0.7rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.map-editor .btn--ghost {
-  color: #1f4ca7;
-  background: #eef4ff;
-  border: 1px solid #bdd0f9;
 }
 
 .tips-grid {
@@ -488,6 +500,10 @@ h1 {
     grid-template-columns: 1fr;
   }
 
+  .offer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .route-sidebar {
     position: static;
   }
@@ -511,6 +527,10 @@ h1 {
   }
 
   .tips-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .offer-grid {
     grid-template-columns: 1fr;
   }
 
