@@ -298,7 +298,6 @@ function createStopCard(stop, index) {
       <p>${stop.details}</p>
       ${attractionsMarkup}
       <p class="stop-card__tip">Wskazówka: ${stop.tip}</p>
-      <p class="credit">Zdjęcie: ${stop.creditAuthor} • <a href="${stop.creditUrl}" target="_blank" rel="noreferrer noopener">źródło</a></p>
     </div>
   `;
 
@@ -379,20 +378,7 @@ function attachScrollSpy() {
   cards.forEach((card) => observer.observe(card));
 }
 
-function renderDate() {
-  const today = document.getElementById("today");
-  if (!today) {
-    return;
-  }
-  today.textContent = new Date().toLocaleDateString("pl-PL", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
-}
-
 renderRouteAndCards();
 renderFilters();
 applyFilter();
 attachScrollSpy();
-renderDate();
